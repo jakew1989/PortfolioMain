@@ -326,7 +326,7 @@ header {
 .section__title--services {
     color: var(--clr-accent);
     position: relative;
-    justify-content: ;
+    
 }
 
 
@@ -446,15 +446,15 @@ header {
 .expand-contract {
     width: 100%;
     height: 100px;
-    background-color: black;
+    background-color: var(--clr-dark);
     color: #fff;
     margin: auto;
     transition: transform 0.3s ease;
     position: absolute;
-    line-height: 100px;
+    justify-content: center;
     bottom: 0;
     right: 0;
-    text-align: center;
+    opacity: 0.9;
 }
 
 
