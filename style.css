@@ -415,9 +415,10 @@ header {
 
 .portfolio {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 10px;
     justify-content: center;
+    align-items: center;
 }
 
 .portfolio__item {
@@ -426,6 +427,8 @@ header {
     position: relative;
     width: 75%;
     height: 400px;
+    display: flex;
+    justify-content: left;
     
 }
 
@@ -434,6 +437,11 @@ header {
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
         height: 100%;
+        width: 100%;
+}
+
+#jscalcimg {
+    width: 70%;
 }
 
 .portfolio__item:focus {
